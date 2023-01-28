@@ -1,0 +1,6 @@
+IntBinaryOperator
+IntConsumer
+IntFunction
+IntSupplier
+IntToDoubleFunction
+IntToLongFunction

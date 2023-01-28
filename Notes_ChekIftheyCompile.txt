@@ -1,0 +1,9 @@
+
+Consumer<String> consumer = () -> {} >>> compile error
+Consumer<String> consumer = (str) -> {} >>> will compile
+
+BiConsumer<String, String> biConsumer = (str, str) -> System.out.println(str) >>> will compile
+
+Supplier<String, String> supplier = () -> "Sunil" -> will compiles
+Supplier<String, String> supplier = () -> {"Sunil";} -> compile error
+Supplier<String, String> supplier = () -> {return "Sunil";} -> will compiles
